@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ombara - Luxury Hotel & Resort HTML Template Documentation</title>
+
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+</head>
+<body>
+
+<div class="container">
+
+  <section class="bg-color">
+    <div class="row">
+      <div class="col-md-3">
+        <h1 class="title">Ombara</h1>
+      </div>
+      <div class="col-md-7">
+        Thank you for purchasing <strong>Ombara - Luxury Hotel &amp; Resort HTML Template</strong>.
+        This documentation explains the project structure, main pages, assets, styles, scripts,
+        and contact form setup so you can customize the template quickly.
+      </div>
+      <div class="col-md-2 text-right">
+        <a class="btn btn-primary mt15" target="_blank" href="../Landingpage/index.html">
+          View Landing Page
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Getting Started</h2>
+
+    <div class="expand">
+      <div class="title">Template Structure</div>
+      <div class="content">
+<pre>
+HTML TEMPLATE
+├── Documentation
+│   ├── css
+│   ├── img
+│   ├── js
+│   └── index.html
+├── Landingpage
+│   ├── index.html
+│   └── *.png
+└── html
+    ├── assets
+    │   ├── logo-black.png
+    │   ├── logo-white.png
+    │   ├── ico.png
+    │   ├── image(1).jpg ... image(13).jpg
+    │   └── version-2
+    ├── css
+    │   ├── bootstrap.min.css
+    │   ├── swiper-bundle.min.css
+    │   ├── all.min.css
+    │   ├── style.css
+    │   ├── dark.css
+    │   └── ext-style.css
+    ├── js
+    │   ├── jquery-3.7.1.min.js
+    │   ├── bootstrap.bundle.min.js
+    │   ├── swiper-bundle.min.js
+    │   ├── lenis.min.js
+    │   ├── slider-custom.js
+    │   └── main.js
+    ├── index.html
+    ├── index_1.html
+    ├── index_2.html
+    ├── index_3.html
+    ├── index_4.html
+    ├── index_5.html
+    ├── rooms.html
+    ├── facilities.html
+    ├── offer.html
+    ├── reservasi.html
+    ├── blog-facilities-detail.html
+    ├── blog-offer-detail.html
+    ├── blog-reservation-detail.html
+    ├── blog-rooms-detail.html
+    └── contact-submit.php
+</pre>
+      </div>
+    </div>
+
+    <div class="expand">
+      <div class="title">Assets and Images</div>
+      <div class="content">
+        <p>
+          Main template assets are stored in <strong>html/assets</strong>.
+          This folder contains logos, favicon, and all gallery or hero images used across the template.
+        </p>
+        <p>
+          If you replace images, keep the same file names or update the related HTML references.
+          For alternate visuals, check the <strong>html/assets/version-2</strong> folder as well.
+        </p>
+        <img src="img/assetimg.png" alt="Assets Folder" />
+      </div>
+    </div>
+
+    <div class="expand">
+      <div class="title">Header and Logo</div>
+      <div class="content">
+<pre>
+&lt;a class="navbar-brand header-logo" href="#home"&gt;
+  &lt;img src="assets/logo-black.png" alt="Hotel Logo" height="40" class="logo-dark"&gt;
+  &lt;img src="assets/logo-white.png" alt="Hotel Logo" height="40" class="logo-light"&gt;
+&lt;/a&gt;
+</pre>
+        <p>
+          Replace <code>html/assets/logo-black.png</code> and <code>html/assets/logo-white.png</code>
+          with your own logo files if needed.
+        </p>
+      </div>
+    </div>
+
+    <div class="expand">
+      <div class="title">Favicon</div>
+      <div class="content">
+<pre>
+&lt;link rel="icon" type="image/png" href="assets/ico.png"&gt;
+</pre>
+        <p>
+          The favicon file is located at <code>html/assets/ico.png</code>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Page Guide</h2>
+
+    <div class="expand">
+      <div class="title">Main Demo Pages</div>
+      <div class="content">
+        <ul>
+          <li><strong>Homepage Version 1:</strong> <code>html/index.html</code></li>
+          <li><strong>Homepage Version 2:</strong> <code>html/index_1.html</code></li>
+          <li><strong>Homepage Version 3:</strong> <code>html/index_2.html</code></li>
+          <li><strong>Homepage Version 4:</strong> <code>html/index_3.html</code></li>
+          <li><strong>Homepage Version 5:</strong> <code>html/index_4.html</code></li>
+          <li><strong>Homepage Version 6:</strong> <code>html/index_5.html</code></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="expand">
+      <div class="title">Inner Pages</div>
+      <div class="content">
+        <ul>
+          <li><strong>Rooms:</strong> <code>html/rooms.html</code></li>
+          <li><strong>Facilities:</strong> <code>html/facilities.html</code></li>
+          <li><strong>Offer:</strong> <code>html/offer.html</code></li>
+          <li><strong>Reservation:</strong> <code>html/reservasi.html</code></li>
+          <li><strong>Blog Details:</strong> <code>html/blog-facilities-detail.html</code>, <code>html/blog-offer-detail.html</code>, <code>html/blog-reservation-detail.html</code>, <code>html/blog-rooms-detail.html</code></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="expand">
+      <div class="title">Landing Page</div>
+      <div class="content">
+        <p>
+          The preview landing page is available at <code>Landingpage/index.html</code>.
+          This page links to all available demo pages inside the <code>html</code> folder.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>CSS and JavaScript</h2>
+
+    <div class="expand">
+      <div class="title">Main CSS Files</div>
+      <div class="content">
+        <ul>
+          <li><strong>Main style:</strong> <code>html/css/style.css</code></li>
+          <li><strong>Dark theme adjustments:</strong> <code>html/css/dark.css</code></li>
+          <li><strong>Extra custom styles:</strong> <code>html/css/ext-style.css</code></li>
+          <li><strong>Framework and libraries:</strong> <code>bootstrap.min.css</code>, <code>swiper-bundle.min.css</code>, <code>all.min.css</code></li>
+        </ul>
+        <p>
+          For most visual changes such as colors, spacing, typography, sections, cards, and layout,
+          start from <code>html/css/style.css</code>.
+        </p>
+      </div>
+    </div>
+
+    <div class="expand">
+      <div class="title">Main JavaScript Files</div>
+      <div class="content">
+        <ul>
+          <li><strong>Main interactions:</strong> <code>html/js/main.js</code></li>
+          <li><strong>Hero or slider behavior:</strong> <code>html/js/slider-custom.js</code></li>
+          <li><strong>Smooth scrolling:</strong> <code>html/js/lenis.min.js</code></li>
+          <li><strong>Vendor scripts:</strong> <code>jquery-3.7.1.min.js</code>, <code>bootstrap.bundle.min.js</code>, <code>swiper-bundle.min.js</code></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="expand">
+      <div class="title">Example CSS Include</div>
+      <div class="content">
+<pre>
+&lt;link href="css/bootstrap.min.css" rel="stylesheet"&gt;
+&lt;link rel="stylesheet" href="css/swiper-bundle.min.css"&gt;
+&lt;link rel="stylesheet" href="css/all.min.css"&gt;
+&lt;link rel="stylesheet" href="css/style.css"&gt;
+</pre>
+      </div>
+    </div>
+
+    <div class="expand">
+      <div class="title">Example JavaScript Include</div>
+      <div class="content">
+<pre>
+&lt;script src="js/jquery-3.7.1.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/bootstrap.bundle.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/swiper-bundle.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/lenis.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/slider-custom.js"&gt;&lt;/script&gt;
+&lt;script src="js/main.js"&gt;&lt;/script&gt;
+</pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Email and Forms</h2>
+
+    <div class="expand">
+      <div class="title">Contact Form Setup</div>
+      <div class="content">
+        <p>
+          The contact form backend file is <code>html/contact-submit.php</code>.
+          Update the email recipient inside that file before using the form on a live server.
+        </p>
+<pre>
+// Example
+$to = 'your-email@example.com';
+</pre>
+        <p>
+          Make sure your hosting supports PHP mail delivery.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Customization Tips</h2>
+
+    <div class="expand">
+      <div class="title">Text and Content</div>
+      <div class="content">
+        <p>
+          Edit text content directly inside the corresponding HTML page.
+          Homepage sections such as hero, about, facilities, rooms, gallery, and CTA are defined in each demo file.
+        </p>
+      </div>
+    </div>
+
+    <div class="expand">
+      <div class="title">Images</div>
+      <div class="content">
+        <p>
+          Replace image files in <code>html/assets</code> and keep the same dimensions when possible
+          to preserve the layout quality.
+        </p>
+      </div>
+    </div>
+
+    <div class="expand">
+      <div class="title">Colors and Typography</div>
+      <div class="content">
+        <p>
+          Global visual settings are mainly controlled from <code>html/css/style.css</code>.
+          Search for root variables, section titles, buttons, cards, navigation, and footer rules to update the design.
+        </p>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/easing.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>

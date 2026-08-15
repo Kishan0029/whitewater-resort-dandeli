@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whitewater Resort Dandeli</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../Logo.png">
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" >
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ext-style.css">
+    <style>
+        .header:not(.scrolled) .logo-text {
+            color: var(--color-white) !important;
+        }
+        .header.scrolled .logo-text {
+            color: var(--color-primary) !important;
+        }
+    </style>
+</head>
+<body class="is-loading always-show-header">
+
+    <div class="preloader" id="preloader" aria-hidden="true" style="background-color: white;">
+        <div class="preloader-brand">
+            <img src="../Logo 2.png" alt="Whitewater Resort Dandeli Logo" class="preloader-logo" style="filter: brightness(0); width: 320px; max-width: 80vw;">
+            <div class="preloader-lines"></div>
+        </div>
+    </div>
+
+    <!-- Header / Navbar -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg header-nav">
+            <div class="container-fluid header-shell">
+                <a class="navbar-brand header-logo d-flex align-items-center gap-2" href="#home">
+                    <img src="../Logo 2.png" alt="Whitewater Resort Dandeli Logo" height="65" class="logo-dark" style="filter: brightness(0);">
+                    <img src="../Logo 2.png" alt="Whitewater Resort Dandeli Logo" height="65" class="logo-light">
+                </a>
+                <button class="navbar-toggler header-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse header-collapse" id="navbarNav">
+                    <ul class="navbar-nav header-menu">
+                        <li class="nav-item"><a class="nav-link header-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link header-link" href="#">Rooms</a></li>
+                        <li class="nav-item"><a class="nav-link header-link" href="#">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link header-link" href="contact.html">Contact Us</a></li>
+                    </ul>
+                    <a class="header-register-btn" href="https://bookings.asiatech.in/?page=8386&type=googlehotelads&checkin=2026-08-16&checkout=2026-08-17&bookingSource=GoogleCPC" target="_blank">
+                        Book Now
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section (Concept 4: Elrune Style) -->
+    <section id="home" class="p-0 position-relative vh-100 overflow-hidden">
+        <h1 class="visually-hidden">Whitewater Resort Dandeli</h1>
+        
+        <!-- Background (Cross-fade setup) -->
+        <div class="position-absolute top-0 start-0 w-100 h-100 z-0 bg-dark">
+            <video autoplay muted loop playsinline class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover" style="filter: brightness(0.85);">
+                <source src="../Hero Video.mp4" type="video/mp4">
+            </video>
+            <!-- Gradient Overlay for better text readability (Elrune style darker at bottom) -->
+            <div class="position-absolute top-0 start-0 w-100 h-100 bg-gradient-elrune" style="opacity: 0.7;"></div>
+        </div>
+
+        <!-- Content Box aligned to bottom -->
+        <div class="container-fluid h-100 position-relative z-1 d-flex flex-column justify-content-end pb-5 px-4 px-md-5">
+            <div class="row align-items-end w-100 g-4 mb-4">
+                
+                <!-- Left Side -->
+                <div class="col-lg-7 reveal" data-reveal="fade-up">
+                    <h2 class="text-white display-3 fw-light mb-3 font-heading lh-1-1">
+                        Escape to the <span class="fst-italic text-gold">Wild</span>
+                    </h2>
+                    <p class="text-white-50 mb-3 max-w-500">
+                        Experience the thrill of the river and the peace of the jungle at Whitewater Resort Dandeli.
+                    </p>
+                    <a href="rooms.html" class="register-submit-btn">
+                        View Rooms
+                    </a>
+                </div>
+
+                <!-- Right Side removed per request -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. About Section -->
+    <section id="about" class="section-padding bg-light text-center">
+        <div class="container">
+            <div class="reveal" data-reveal="fade-up">
+                <span class="accent-text">About Us</span>
+                <h2 class="display-4 mb-4 font-playfair-light">Your Gateway to Adventure</h2>
+                <p class="lead mx-auto text-muted-dark max-w-800">
+                    Whitewater Resort Dandeli is a comfortable, nature-immersed retreat. We offer a perfect balance of thrilling river activities and relaxing forest ambiance for families, friends, and adventure seekers alike.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Masterplan / Interactive Map -->
+    <section id="masterplan" class="p-0 bg-light">
+        <div class="container-fluid p-0">
+            <div class="row g-0">
+                <!-- Content Side -->
+                <div class="col-lg-5 d-flex align-items-center reveal is-visible" data-reveal="fade-right">
+                    <div class="p-5 p-xl-5 w-100">
+                        <span class="accent-text text-start">Resort Experience</span>
+                        <h2 class="display-5 mb-4 font-playfair-light">Nature & Thrills</h2>
+                        <p class="mb-5 text-muted">Nestled in the lush forests of Dandeli, our resort offers a variety of experiences for nature lovers. It perfectly integrates thrilling adventures with comfortable living.</p>
+                        
+                        <div class="d-flex flex-column gap-4">
+                            <div class="d-flex flex-column align-items-start">
+                                <h3 class="mb-2 font-playfair fs-5"><span class="text-gold me-3">01</span> River Rafting</h3>
+                                <p class="text-muted small mb-0">Navigate the thrilling rapids of the Kali River right near our property.</p>
+                            </div>
+                            <div class="d-flex flex-column align-items-start">
+                                <h3 class="mb-2 font-playfair fs-5"><span class="text-gold me-3">02</span> Jungle Safari</h3>
+                                <p class="text-muted small mb-0">Explore the rich wildlife and dense forests of Dandeli on a guided tour.</p>
+                            </div>
+                            <div class="d-flex flex-column align-items-start">
+                                <h3 class="mb-2 font-playfair fs-5"><span class="text-gold me-3">03</span> Comfortable Stay</h3>
+                                <p class="text-muted small mb-0">Relax in our cozy, well-equipped rooms and enjoy home-style meals after a day full of adventure.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Image Side (Full Height/Width of column) -->
+                <div class="col-lg-7 reveal is-visible" data-reveal="fade-left">
+                    <div class="position-relative h-100 w-100 min-vh-50">
+                        <img src="../Images/img_67de8b577890c3.32380875.jpg" class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover" alt="Estate Masterplan">
+                        
+                        <!-- Abstract Floating elements to simulate map points with Tooltips -->
+                        <div class="map-marker map-marker-1" tabindex="0" data-bs-toggle="tooltip" data-bs-placement="top" title="River Rafting: Navigate the thrilling rapids.">
+                            <span class="text-gold fw-bold fs-5">1</span>
+                        </div>
+                        
+                        <div class="map-marker map-marker-2" tabindex="0" data-bs-toggle="tooltip" data-bs-placement="top" title="Jungle Safari: Explore the rich wildlife.">
+                            <span class="text-gold fw-bold fs-5">2</span>
+                        </div>
+                        
+                        <div class="map-marker map-marker-3" tabindex="0" data-bs-toggle="tooltip" data-bs-placement="top" title="Comfortable Stay: Relax in cozy rooms.">
+                            <span class="text-gold fw-bold fs-5">3</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials / Social Proof -->
+    <section class="section-padding bg-sand">
+        <div class="container">
+            <div class="row justify-content-center text-center mb-5">
+                <div class="col-lg-8 reveal" data-reveal="fade-up">
+                    <span class="accent-text">Guest Reviews</span>
+                    <h2 class="display-5 font-playfair-light">What Our Guests Say</h2>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-4 reveal delay-1" data-reveal="fade-up">
+                    <div class="card border-0 bg-transparent h-100">
+                        <div class="card-body p-4 text-center">
+                            <div class="text-gold mb-3">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="fs-5 fst-italic mb-4 mt-3 font-playfair">"We had an amazing time! The river rafting was thrilling and returning to our cozy room in the jungle was exactly what we needed for a weekend getaway."</p>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="../Images/Screenshot 2026-08-15 220102.png" class="me-3 rounded-circle object-fit-cover avatar-50" alt="Eleanor R.">
+                                <div class="text-start">
+                                    <h3 class="h6 fw-bold mb-0">Rahul S.</h3>
+                                    <span class="text-muted small">Family Vacation</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 reveal delay-2" data-reveal="fade-up">
+                    <div class="card border-0 bg-transparent h-100">
+                        <div class="card-body p-4 text-center">
+                            <div class="text-gold mb-3">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="fs-5 fst-italic mb-4 mt-3 font-playfair">"The food is fantastic and genuinely feels like a home-cooked meal. Waking up to the sound of birds in the forest was pure magic."</p>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="../Images/Screenshot 2026-08-15 220037.png" class="me-3 rounded-circle object-fit-cover avatar-50" alt="Marcus T.">
+                                <div class="text-start">
+                                    <h3 class="h6 fw-bold mb-0">Ayesha M.</h3>
+                                    <span class="text-muted small">Nature Lover</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 reveal delay-3" data-reveal="fade-up">
+                    <div class="card border-0 bg-transparent h-100">
+                        <div class="card-body p-4 text-center">
+                            <div class="text-gold mb-3">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="fs-5 fst-italic mb-4 mt-3 font-playfair">"Very comfortable stay with incredibly helpful staff. The evening campfire was the perfect end to a day of jungle safari and trekking."</p>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="../Images/Screenshot 2026-08-15 220132.png" class="me-3 rounded-circle object-fit-cover avatar-50" alt="Sophia L.">
+                                <div class="text-start">
+                                    <h3 class="h6 fw-bold mb-0">Vikram K.</h3>
+                                    <span class="text-muted small">Adventure Seeker</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Culinary Journey (Masonry Layout) -->
+    <section id="culinary" class="section-padding overflow-hidden">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <!-- Text Content -->
+                <div class="col-lg-6 reveal is-visible" data-reveal="fade-right">
+                    <span class="accent-text text-start">Gastronomy</span>
+                    <h2 class="section-title text-start font-playfair-light">Local Flavors</h2>
+                    <p class="mb-4 text-muted">
+                        Enjoy delicious, home-style meals prepared with fresh local ingredients. Our dining experience is simple, hearty, and satisfying, giving you the perfect energy boost for your adventures.
+                    </p>
+                    
+                    <div class="d-flex mt-5">
+                        <div class="me-4 text-gold fs-3"><i class="fa-solid fa-utensils"></i></div>
+                        <div>
+                            <h3 class="mb-1 h5 font-playfair">Riverside Dining</h3>
+                            <p class="text-muted small">Enjoy your meals in an open-air setting surrounded by the sights and sounds of the jungle.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex mt-4">
+                        <div class="me-4 text-gold fs-3"><i class="fa-solid fa-leaf"></i></div>
+                        <div>
+                            <h3 class="mb-1 h5 font-playfair">Traditional Cuisine</h3>
+                            <p class="text-muted small">Authentic regional dishes prepared with care, bringing you the true taste of Karnataka.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Masonry Images -->
+                <div class="col-lg-6 reveal is-visible" data-reveal="fade-left">
+                    <div class="row g-3">
+                        <div class="col-6">
+                            <img src="../Images/Screenshot 2026-08-15 220132.png" class="img-fluid shadow w-100 img-tall rounded" alt="Dining Experience">
+                        </div>
+                        <div class="col-6 d-flex flex-column gap-3">
+                            <img src="../Images/Screenshot 2026-08-15 220145.png" class="img-fluid shadow w-100 img-medium rounded" alt="Fine Cuisine">
+                            <img src="../Images/Screenshot 2026-08-15 220211.png" class="img-fluid shadow w-100 img-medium rounded" alt="Wine Collection">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Itinerary (Cards Layout) -->
+    <section id="itinerary" class="section-padding bg-sand">
+        <div class="container">
+            <div class="text-center mb-5 reveal" data-reveal="fade-up">
+                <span class="accent-text">Experience</span>
+                <h2 class="display-5 font-playfair-light">A Day in Dandeli</h2>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-4 reveal delay-1" data-reveal="fade-up">
+                    <div class="card border-0 shadow-sm h-100 rounded-0">
+                        <img src="../Images/img_67de8b4f1b5a52.26479072.jpg" class="card-img-top rounded-0 img-medium" alt="Morning">
+                        <div class="card-body p-4 text-center">
+                            <span class="text-gold small fw-bold tracking-widest text-uppercase mb-2 d-block">Morning</span>
+                            <h3 class="card-title font-playfair">Morning Safari</h3>
+                            <p class="card-text text-muted small">Early morning nature walks and bird watching in the fresh jungle air.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal delay-2" data-reveal="fade-up">
+                    <div class="card border-0 shadow-sm h-100 rounded-0">
+                        <img src="../Images/img_67de8b523b6a71.71146385.jpg" class="card-img-top rounded-0 img-medium" alt="Afternoon">
+                        <div class="card-body p-4 text-center">
+                            <span class="text-gold small fw-bold tracking-widest text-uppercase mb-2 d-block">Afternoon</span>
+                            <h3 class="card-title font-playfair">River Adventures</h3>
+                            <p class="card-text text-muted small">Thrilling white water rafting and boating excursions on the Kali River.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal delay-4" data-reveal="fade-up">
+                    <div class="card border-0 shadow-sm h-100 rounded-0">
+                        <img src="../Images/img_67de8b55987fe3.09424125.jpg" class="card-img-top rounded-0 img-medium" alt="Evening">
+                        <div class="card-body p-4 text-center">
+                            <span class="text-gold small fw-bold tracking-widest text-uppercase mb-2 d-block">Evening</span>
+                            <h3 class="card-title font-playfair">Campfire & Dinner</h3>
+                            <p class="card-text text-muted small">Relax around the campfire, sharing stories over a hearty dinner.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Eco-Luxury Banner -->
+    <section id="sustainability" class="section-padding bg-dark text-white text-center bg-parallax-sustainability">
+        <div class="container reveal" data-reveal="fade-up">
+            <span class="accent-text text-gold">Eco-Friendly</span>
+            <h2 class="section-title text-white mb-5">Nature First</h2>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-3 col-6">
+                    <i class="fa-solid fa-leaf fs-1 mb-3 text-gold"></i>
+                    <h3 class="text-white h5">Surrounded by Nature</h3>
+                    <p class="text-white-50">Immerse yourself in lush greenery</p>
+                </div>
+                <div class="col-md-3 col-6">
+                    <i class="fa-solid fa-house fs-1 mb-3 text-gold"></i>
+                    <h3 class="text-white h5">Rustic Charm</h3>
+                    <p class="text-white-50">Comfortable and unpretentious stay</p>
+                </div>
+                <div class="col-md-3 col-6">
+                    <i class="fa-solid fa-users fs-1 mb-3 text-gold"></i>
+                    <h3 class="text-white h5">Local Culture</h3>
+                    <p class="text-white-50">Experience the warmth of Dandeli</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW SECTION: Bespoke Services (Full Width Concept) -->
+    <section id="services" class="p-0">
+        <div class="container-fluid p-0 overflow-hidden">
+            <div class="row g-0 align-items-stretch">
+                <!-- Content Side -->
+                <div class="col-lg-6 d-flex align-items-center bg-sand reveal" data-reveal="fade-right">
+                    <div class="p-5 p-lg-5 m-lg-4 w-100">
+                        <span class="accent-text">Guest Services</span>
+                        <h2 class="section-title mb-4 font-playfair-light">Everything You Need</h2>
+                        <p class="mb-5 text-muted lead">We focus on making your stay as comfortable and enjoyable as possible, providing all the essential amenities for a great trip.</p>
+                        
+                        <div class="d-flex mb-4">
+                            <i class="fa-solid fa-check text-gold mt-1 me-4 fs-5"></i>
+                            <p class="mb-0 fs-5">Guided adventure tours and rafting</p>
+                        </div>
+                        <div class="d-flex mb-4">
+                            <i class="fa-solid fa-check text-gold mt-1 me-4 fs-5"></i>
+                            <p class="mb-0 fs-5">Hearty buffet meals included</p>
+                        </div>
+                        <div class="d-flex mb-4">
+                            <i class="fa-solid fa-check text-gold mt-1 me-4 fs-5"></i>
+                            <p class="mb-0 fs-5">Campfire evenings under the stars</p>
+                        </div>
+                        <div class="d-flex mb-5">
+                            <i class="fa-solid fa-check text-gold mt-1 me-4 fs-5"></i>
+                            <p class="mb-0 fs-5">Free parking & Wi-Fi in common areas</p>
+                        </div>
+                        
+                        <a href="rooms.html" class="btn btn-outline-dark rounded-pill px-4 py-2 mt-4">Explore Rooms</a>
+                    </div>
+                </div>
+                
+                <!-- Image Side (Full Height/Width of column) -->
+                <div class="col-lg-6 reveal" data-reveal="fade-left">
+                    <img src="../Images/Screenshot 2026-08-15 220132.png" class="w-100 h-100 img-min-vh-50" alt="Concierge Service">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Existing Core Feature: Gallery Scroll -->
+    <section id="gallery" class="gallery-scroll section-padding">
+        <div class="container">
+            <div class="gallery-scroll-shell">
+                <div class="gallery-scroll-intro reveal" data-reveal="fade-right">
+                    <span class="accent-text text-start">Gallery</span>
+                    <h2 class="section-title text-start">Visualizing Perfection</h2>
+                    <p class="section-subtitle text-start">
+                       A seamless journey through refined spaces, coastal architecture, and thoughtfully crafted details.
+                    </p>
+                    <div class="gallery-scroll-copy">
+                        <p>
+                            Each scene reveals another layer of the destination, capturing the balance between natural beauty and contemporary luxury.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="gallery-scroll-track">
+                    <div class="gallery-scroll-card reveal" data-reveal="fade-up">
+                        <div class="gallery-scroll-media">
+                            <img src="../Images/img_67de8b577890c3.32380875.jpg" alt="Gallery oceanfront pool view" class="gallery-scroll-image" data-speed="1.04">
+                        </div>
+                        <div class="gallery-scroll-content">
+                            <span class="gallery-scroll-kicker">01 / Environment</span>
+                            <h3 class="gallery-scroll-title">Jungle Vibes</h3>
+                            <p class="gallery-scroll-text">Step out of your room and directly into the beautiful nature of Dandeli.</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-scroll-card reveal delay-08" data-reveal="fade-up">
+                        <div class="gallery-scroll-media">
+                            <img src="../Images/Screenshot 2026-08-15 220037.png" alt="Gallery infinity pool scene" class="gallery-scroll-image" data-speed="1.06">
+                        </div>
+                        <div class="gallery-scroll-content">
+                            <span class="gallery-scroll-kicker">02 / Spaces</span>
+                            <h3 class="gallery-scroll-title">River Views</h3>
+                            <p class="gallery-scroll-text">Relaxing spaces designed to let you enjoy the soothing sounds of the nearby river.</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-scroll-card reveal delay-16" data-reveal="fade-up">
+                        <div class="gallery-scroll-media">
+                            <img src="../Images/Screenshot 2026-08-15 220102.png" alt="Gallery suite interior" class="gallery-scroll-image" data-speed="1.05">
+                        </div>
+                        <div class="gallery-scroll-content">
+                            <span class="gallery-scroll-kicker">03 / Comfort</span>
+                            <h3 class="gallery-scroll-title">Cozy Rooms</h3>
+                            <p class="gallery-scroll-text">Comfortable beds, clean amenities, and a warm atmosphere after a day of activities.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fullscreen Feature Gallery Scroll (From Original Version) -->
+    <section class="feature-gallery-section" data-feature-gallery-scroll>
+        <div class="feature-gallery-scroll__sticky">
+            <div class="feature-gallery-scroll__slides">
+                <figure class="feature-gallery-scroll__slide is-active" data-feature-gallery-slide>
+                    <img src="../Images/img_67de8b4f1b5a52.26479072.jpg" alt="Pool view at Ombara">
+                </figure>
+                <figure class="feature-gallery-scroll__slide" data-feature-gallery-slide>
+                    <img src="../Images/img_67de8b523b6a71.71146385.jpg" alt="Aegean Falls Cascading Pool at Ground Floor">
+                </figure>
+                <figure class="feature-gallery-scroll__slide" data-feature-gallery-slide>
+                    <img src="../Images/Screenshot 2026-08-15 220037.png" alt="The Arrival at Ground Floor">
+                </figure>
+                <figure class="feature-gallery-scroll__slide" data-feature-gallery-slide>
+                    <img src="../Images/img_67de8b577890c3.32380875.jpg" alt="Lobby Reception at Ground Floor">
+                </figure>
+                <figure class="feature-gallery-scroll__slide" data-feature-gallery-slide>
+                    <img src="../Images/Screenshot 2026-08-15 220132.png" alt="The Play Garden at Level 8">
+                </figure>
+                <figure class="feature-gallery-scroll__slide" data-feature-gallery-slide>
+                    <img src="../Images/img_67de8b55987fe3.09424125.jpg" alt="Terrace by the Sea BBQ Pit and Lounge at Level 8">
+                </figure>
+            </div>
+
+            <div class="feature-gallery-scroll__overlay">
+                <div class="feature-gallery-scroll__meta">
+                    <p class="feature-gallery-scroll__count">
+                        <span id="featureGalleryCurrentIndex">01</span>
+                        <span aria-hidden="true">—</span>
+                        <span id="featureGalleryTotalCount">06</span>
+                    </p>
+                </div>
+
+                <div class="feature-gallery-scroll__card reveal" data-reveal="fade-up">
+                    <span class="feature-gallery-scroll__card-kicker" id="featureGalleryCardEyebrow">Gallery</span>
+                    <h2 class="feature-gallery-scroll__title" id="featureGalleryCardTitle">Pool</h2>
+                    <div class="feature-gallery-scroll__card-media">
+                        <img id="featureGalleryCardImage" src="../Images/img_67de8b4f1b5a52.26479072.jpg" alt="Pool view at Ombara">
+                    </div>
+                    <p class="feature-gallery-scroll__card-text" id="featureGalleryCardText">
+                        Pool
+                    </p>
+                </div>
+
+                <div class="feature-gallery-scroll__meta">
+                    <button class="feature-gallery-scroll__skip" id="featureGallerySkipBtn" type="button" aria-label="Skip feature gallery">
+                        Skip
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="feature-gallery-scroll__progress" aria-hidden="false">
+                <button class="feature-gallery-scroll__nav-button" id="featureGalleryPrevBtn" type="button" aria-label="Previous feature gallery slide">Prev</button>
+                <div class="feature-gallery-scroll__progress-track" aria-hidden="true">
+                    <span class="feature-gallery-scroll__progress-line"></span>
+                    <span class="feature-gallery-scroll__progress-fill" id="featureGalleryProgressFill"></span>
+                </div>
+                <button class="feature-gallery-scroll__nav-button" id="featureGalleryNextBtn" type="button" aria-label="Next feature gallery slide">Next</button>
+            </div>
+
+            <div class="feature-gallery-scroll__data" hidden>
+                <div data-feature-gallery-info data-eyebrow="Gallery" data-title="Swimming Pool" data-text="Dive into serenity"></div>
+                <div data-feature-gallery-info data-eyebrow="Gastronomy" data-title="Hearty Meals" data-text="Fuel for your adventures"></div>
+                <div data-feature-gallery-info data-eyebrow="Experience" data-title="The Arrival" data-text="Your journey begins here"></div>
+                <div data-feature-gallery-info data-eyebrow="Facilities" data-title="Reception" data-text="A warm welcome awaits"></div>
+                <div data-feature-gallery-info data-eyebrow="Wellness" data-title="Garden Area" data-text="Reconnect with nature"></div>
+                <div data-feature-gallery-info data-eyebrow="Leisure" data-title="Campfire Area" data-text="Evening relaxation"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Room Showcase (From Original Version) -->
+    <section class="room-showcase-section section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="room-showcase-wrap">
+                    <div class="room-showcase">
+                        <div class="room-showcase-media reveal delay-12" data-reveal="fade-left">
+                            <button
+                                class="room-showcase-trigger"
+                                type="button"
+                                data-iframe-src="https://www.youtube.com/embed/cdKx1Zv3YKs?si=Qt_JJys6fB6kgCAb"
+                                aria-label="Load immersive suite preview">
+                                <img src="../Images/Screenshot 2026-08-15 220132.png" alt="Deluxe King room preview" class="room-showcase-image" data-speed="1.03">
+                                <span class="room-showcase-play" aria-hidden="true"></span>
+                            </button>
+
+                            <iframe
+                                class="room-showcase-frame"
+                                title="External suite iframe preview"
+                                loading="lazy"
+                                allow="autoplay; encrypted-media"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+
+                        <div class="room-showcase-panel reveal" data-reveal="fade-right">
+                            <span class="room-showcase-kicker">Your Sanctuary</span>
+                            <h2 class="room-showcase-title h3">Standard Room</h2>
+                            <p class="room-showcase-text">
+                                Unwind in our comfortable and clean standard rooms, featuring comfortable beds, modern amenities, and beautiful views of the surrounding nature.
+                            </p>
+                            <div class="room-showcase-specs">
+                                <span class="room-showcase-spec">1 Double Bed</span>
+                                <span class="room-showcase-spec">2 Guests</span>
+                            </div>
+                            <a class="room-showcase-link text-decoration-none" href="rooms.html">View Rooms</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" style="background-color: black !important;">
+        <div class="container">
+            <div class="footer-shell">
+                <div class="footer-brand">
+                    <h3 class="footer-title">
+                        <img src="../Logo 2.png" alt="Whitewater Resort Dandeli Logo" height="90" style="object-fit: contain;">
+                    </h3>
+                    <p class="footer-text mt-3">Escape to the wild. Experience the thrill of the river and the peace of the jungle at Whitewater Resort Dandeli.</p>
+                </div>
+
+                <div class="footer-links-wrap">
+                    <div class="footer-links-group">
+                        <span class="footer-label">Information</span>
+                        <span class="footer-link text-white-50 mb-2 d-block">Check-in: 12:30 pm</span>
+                        <span class="footer-link text-white-50 mb-2 d-block">Check-out: 11:00 am</span>
+                        <span class="footer-link text-white-50 mb-2 d-block">Plus Code: 7G6R+J2</span>
+                    </div>
+
+                    <div class="footer-links-group" style="max-width: 250px;">
+                        <span class="footer-label">Contact</span>
+                        <a href="tel:+919740751666" class="footer-link">097407 51666</a>
+                        <a href="https://whitewaterresortdandeli.com/" target="_blank" class="footer-link">whitewaterresortdandeli.com</a>
+                        <span class="footer-meta mt-2 d-block">ambeli, ilava, Ganeshgudi, Dandeli, Karnataka 581365</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <span class="footer-meta">A beautiful resort immersed in the nature of Dandeli.</span>
+                <span class="footer-meta">&copy; 2026 Whitewater Resort Dandeli. All rights reserved.</span>
+            </div>
+        </div>
+    </footer>
+
+    <button class="to-top" id="toTopBtn" type="button" aria-label="Back to top">
+        <span class="to-top-label" aria-hidden="true">
+            <i class="fa-solid fa-chevron-up"></i>
+        </span>
+        <span class="to-top-line">
+            <span class="to-top-line-progress" id="toTopProgress"></span>
+        </span>
+    </button>
+
+    <!-- Scripts -->
+    <!-- jQuery -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <!-- Bootstrap Bundle JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Lenis Smooth Scroll API -->
+    <script src="js/lenis.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+    <script src="js/slider-custom.js"></script>
+</body>
+</html>
