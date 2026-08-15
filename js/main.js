@@ -82,7 +82,7 @@ function hidePreloader() {
         window.setTimeout(() => {
             $preloader.remove();
         }, 900);
-    }, 1500);
+    }, 100);
 }
 
 function updateHeroMeta(index, titles) {
