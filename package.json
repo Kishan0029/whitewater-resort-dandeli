@@ -1,5 +1,0 @@
-{
-  "scripts": {
-    "build": "git lfs pull"
-  }
-}
